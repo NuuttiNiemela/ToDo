@@ -228,6 +228,16 @@ function pvmMuunnos() {
     var tunti = document.getElementById('tunti').value
     var minuutti = document.getElementById('minuutti').value
 
+    if (tunti === '01') tunti = 1;
+    if (tunti === '02') tunti = 2;
+    if (tunti === '03') tunti = 3;
+    if (tunti === '04') tunti = 4;
+    if (tunti === '05') tunti = 5;
+    if (tunti === '06') tunti = 6;
+    if (tunti === '07') tunti = 7;
+    if (tunti === '08') tunti = 8;
+    if (tunti === '09') tunti = 9;
+    
     if (minuutti === '01') minuutti = 1;
     if (minuutti === '02') minuutti = 2;
     if (minuutti === '03') minuutti = 3;
